@@ -4,12 +4,12 @@ body {
     text-align: center;
 }
 :root {
-    font-size: 20px;
+    --base-font-size: 20px; 
 }
 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px; 
-    letter-spacing: 1.2em;
+    font-size: calc(var(--base-font-size) * 2);
+    letter-spacing: 1.2em; 
     text-shadow: 2px 2px 4px #aaa;
     border-bottom: 3px solid rgb(115, 115, 114);
     color: black;
