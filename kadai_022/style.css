@@ -28,6 +28,7 @@ main {
     padding: 10px 15px;
     margin: 20px 0;
     text-align: center;
+    box-sizing: border-box;
   }
 
 @media (max-width: 768px) {
